@@ -1,5 +1,10 @@
 {
-  "name": "",
+  "name": "personal-site",
+  "description": "Personal site of Andrew Allen",
+  "author": {
+    "name": "Andrew Allen",
+    "url": "https://often.codes"
+  },
   "type": "module",
   "version": "0.0.1",
   "scripts": {
