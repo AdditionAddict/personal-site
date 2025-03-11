@@ -1,0 +1,9 @@
+---
+import { getAllPosts } from "../get-posts"
+
+const allPosts = getAllPosts()
+---
+<p>wip: list of blog posts</p>
+<ul>
+    {allPosts.map((post) => <li><a href={post.url}>{post.heading}</a></li>)}
+</ul>
