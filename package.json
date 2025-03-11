@@ -1,19 +1,24 @@
 {
-  "name": "personal-site",
-  "description": "Personal site of Andrew Allen",
-  "author": {
-    "name": "Andrew Allen",
-    "url": "https://often.codes"
-  },
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^5.4.3"
-  }
+	"name": "personal-site",
+	"description": "Personal site of Andrew Allen",
+	"author": {
+		"name": "Andrew Allen",
+		"url": "https://often.codes"
+	},
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro",
+		"format": "bunx biome format --write .",
+		"lint": "bunx biome lint --write ."
+	},
+	"dependencies": {
+		"astro": "^5.4.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	}
 }
