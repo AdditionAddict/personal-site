@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography Test Page</title>
+    <link rel="stylesheet" href="../styles/global.css">
+</head>
+<body>
+    <header>
+        <h1>Typography Test Page</h1>
+        <p>A comprehensive test page for typography and design elements</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Headings</h2>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </section>
+
+        <section>
+            <h2>Paragraphs</h2>
+            <p>This is a standard paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.</p>
+            <p>This is another paragraph with <em>emphasized text</em>, <strong>strong text</strong>, <mark>marked/highlighted text</mark>, <small>small text</small>, <del>deleted text</del>, <ins>inserted text</ins>, <sub>subscript</sub> and <sup>superscript</sup>.</p>
+        </section>
+
+        <section>
+            <h2>Blockquotes</h2>
+            <blockquote>
+                <p>This is a blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <cite>— Source Citation</cite>
+            </blockquote>
+        </section>
+
+        <section>
+            <h2>Lists</h2>
+            
+            <h3>Unordered List</h3>
+            <ul>
+                <li>List item one</li>
+                <li>List item two
+                    <ul>
+                        <li>Nested list item</li>
+                        <li>Another nested list item</li>
+                    </ul>
+                </li>
+                <li>List item three</li>
+            </ul>
+            
+            <h3>Ordered List</h3>
+            <ol>
+                <li>List item one</li>
+                <li>List item two
+                    <ol>
+                        <li>Nested list item</li>
+                        <li>Another nested list item</li>
+                    </ol>
+                </li>
+                <li>List item three</li>
+            </ol>
+            
+            <h3>Definition List</h3>
+            <dl>
+                <dt>Definition Term</dt>
+                <dd>Definition description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</dd>
+                <dt>Another Definition Term</dt>
+                <dd>Another definition description</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Text Alignment</h2>
+            <p style="text-align: left;">Left aligned text</p>
+            <p style="text-align: center;">Center aligned text</p>
+            <p style="text-align: right;">Right aligned text</p>
+            <p style="text-align: justify;">Justified text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem.</p>
+        </section>
+
+        <section>
+            <h2>Links</h2>
+            <p><a href="#">Standard link</a></p>
+            <p><a href="#" target="_blank">Link that opens in a new tab</a></p>
+        </section>
+
+        <section>
+            <h2>Code</h2>
+            <p>Inline <code>code example</code> within text</p>
+            <pre><code>// Code block example
+function greet(name) {
+    return `Hello, ${name}!`;
+}</code></pre>
+        </section>
+
+        <section>
+            <h2>Table</h2>
+            <table>
+                <caption>Sample Table Caption</caption>
+                <thead>
+                    <tr>
+                        <th>Header 1</th>
+                        <th>Header 2</th>
+                        <th>Header 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Row 1, Cell 1</td>
+                        <td>Row 1, Cell 2</td>
+                        <td>Row 1, Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 2, Cell 1</td>
+                        <td>Row 2, Cell 2</td>
+                        <td>Row 2, Cell 3</td>
+                    </tr>
+                    <tr>
+                        <td>Row 3, Cell 1</td>
+                        <td>Row 3, Cell 2</td>
+                        <td>Row 3, Cell 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Table footer</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Forms</h2>
+            <form>
+                <fieldset>
+                    <legend>Form Legend</legend>
+                    <div>
+                        <label for="text-input">Text Input:</label>
+                        <input type="text" id="text-input" placeholder="Text input">
+                    </div>
+                    <div>
+                        <label for="password-input">Password Input:</label>
+                        <input type="password" id="password-input" placeholder="Password">
+                    </div>
+                    <div>
+                        <label for="textarea">Textarea:</label>
+                        <textarea id="textarea" rows="4" placeholder="Textarea content"></textarea>
+                    </div>
+                    <div>
+                        <label for="select">Select Dropdown:</label>
+                        <select id="select">
+                            <option value="option1">Option 1</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Checkboxes:</label>
+                        <input type="checkbox" id="checkbox1">
+                        <label for="checkbox1">Checkbox 1</label>
+                        <input type="checkbox" id="checkbox2">
+                        <label for="checkbox2">Checkbox 2</label>
+                    </div>
+                    <div>
+                        <label>Radio Buttons:</label>
+                        <input type="radio" name="radio-group" id="radio1">
+                        <label for="radio1">Radio 1</label>
+                        <input type="radio" name="radio-group" id="radio2">
+                        <label for="radio2">Radio 2</label>
+                    </div>
+                    <div>
+                        <button type="button">Standard Button</button>
+                        <input type="submit" value="Submit Button">
+                        <input type="reset" value="Reset Button">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <h2>Images</h2>
+            <figure>
+                <img src="/api/placeholder/400/200" alt="Placeholder image">
+                <figcaption>Figure caption for the placeholder image</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>Horizontal Rule</h2>
+            <hr>
+        </section>
+
+        <section>
+            <h2>Special Characters</h2>
+            <p>Copyright © | Registered ® | Trademark ™ | Euro € | Pound £ | Yen ¥ | Ampersand &amp; | Less than &lt; | Greater than &gt;</p>
+        </section>
+
+        <section>
+            <h2>Typography Test</h2>
+            <p>AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+            <p>1234567890!@#$%^&*()_+-=[]{}|;':,./<>?</p>
+            <p class="font-serif">Font-serif: AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+            <p class="font-mono">Font-mono: AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+        </section>
+
+        <section>
+            <h2>Vertical Rhythm</h2>
+            <h1>Heading 1</h1>
+            <p>Paragraph following heading 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis est.</p>
+            <h2>Heading 2</h2>
+            <p>Paragraph following heading 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis est.</p>
+            <h3>Heading 3</h3>
+            <p>Paragraph following heading 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis est.</p>
+            <blockquote>
+                <p>Blockquote for vertical rhythm testing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </blockquote>
+            <p>Paragraph following blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dignissim convallis est.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Typography Test Page Footer</p>
+    </footer>
+</body>
+</html>
