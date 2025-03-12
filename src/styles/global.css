@@ -1,7 +1,13 @@
 @import "tailwindcss";
+@import "./inconsolata-fonts.css";
 
 /* Tailwind Typography Globals */
 @layer base {
+	html {
+		font-family: Inconsolata, system-ui, sans-serif;
+		background-color: blanchedalmond;
+	}
+
 	/* Headings */
 	h1 {
 		@apply text-4xl font-bold mb-6 text-gray-900;

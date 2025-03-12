@@ -1,9 +1,29 @@
 ---
-import { getAllPosts } from '../get-posts';
+import { getCollection } from 'astro:content';
+import '../styles/global.css';
 
-const allPosts = getAllPosts();
+type Post = {
+	url: string;
+	heading: string;
+};
+
+export async function getAllPosts(): Promise<Post[]> {
+	const allPosts = await getCollection('blog');
+
+	return allPosts.map((p) => {
+		const firstLine = p.body?.split('\n')[0] ?? '# Untitled';
+
+		return {
+			url: p.id,
+			heading: firstLine?.split('# ')[1],
+		};
+	});
+}
+
+const allPosts = await getAllPosts();
 ---
 <p>wip: list of blog posts</p>
+
 <ul>
     {allPosts.map((post) => <li><a href={post.url}>{post.heading}</a></li>)}
 </ul>

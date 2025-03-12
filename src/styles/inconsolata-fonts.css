@@ -1,0 +1,662 @@
+@font-face {
+	font-family: "Inconsolata";
+	src: url("/fonts/Inconsolata/Inconsolata-VariableFont_wdth,wght.ttf")
+		format("truetype");
+	font-weight: 100 200 300 400 500 600 700 800 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Regular width variants */
+@font-face {
+	font-family: "Inconsolata";
+	src: url("/fonts/Inconsolata/static/Inconsolata-ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata";
+	src: url("/fonts/Inconsolata/static/Inconsolata-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata";
+	src: url("/fonts/Inconsolata/static/Inconsolata-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata";
+	src: url("/fonts/Inconsolata/static/Inconsolata-Medium.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata";
+	src: url("/fonts/Inconsolata/static/Inconsolata-SemiBold.ttf")
+		format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata";
+	src: url("/fonts/Inconsolata/static/Inconsolata-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata";
+	src: url("/fonts/Inconsolata/static/Inconsolata-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata";
+	src: url("/fonts/Inconsolata/static/Inconsolata-Black.ttf") format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Semi-Condensed variants */
+@font-face {
+	font-family: "Inconsolata SemiCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiCondensed-ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiCondensed-Light.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiCondensed-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiCondensed-Medium.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiCondensed-SemiBold.ttf")
+		format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiCondensed-Bold.ttf")
+		format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiCondensed-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiCondensed-Black.ttf")
+		format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Condensed variants */
+@font-face {
+	font-family: "Inconsolata Condensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Condensed-ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Condensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Condensed-Light.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Condensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Condensed-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Condensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Condensed-Medium.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Condensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Condensed-SemiBold.ttf")
+		format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Condensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Condensed-Bold.ttf")
+		format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Condensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Condensed-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Condensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Condensed-Black.ttf")
+		format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Extra Condensed variants */
+@font-face {
+	font-family: "Inconsolata ExtraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraCondensed-ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraCondensed-Light.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraCondensed-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraCondensed-Medium.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraCondensed-SemiBold.ttf")
+		format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraCondensed-Bold.ttf")
+		format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraCondensed-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraCondensed-Black.ttf")
+		format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Ultra Condensed variants */
+@font-face {
+	font-family: "Inconsolata UltraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraCondensed-ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraCondensed-Light.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraCondensed-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraCondensed-Medium.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraCondensed-SemiBold.ttf")
+		format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraCondensed-Bold.ttf")
+		format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraCondensed-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraCondensed";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraCondensed-Black.ttf")
+		format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Semi-Expanded variants */
+@font-face {
+	font-family: "Inconsolata SemiExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiExpanded-ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiExpanded-Light.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiExpanded-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiExpanded-Medium.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiExpanded-SemiBold.ttf")
+		format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiExpanded-Bold.ttf")
+		format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiExpanded-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata SemiExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_SemiExpanded-Black.ttf")
+		format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Expanded variants */
+@font-face {
+	font-family: "Inconsolata Expanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Expanded-ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Expanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Expanded-Light.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Expanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Expanded-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Expanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Expanded-Medium.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Expanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Expanded-SemiBold.ttf")
+		format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Expanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Expanded-Bold.ttf")
+		format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Expanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Expanded-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata Expanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_Expanded-Black.ttf")
+		format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Extra Expanded variants */
+@font-face {
+	font-family: "Inconsolata ExtraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraExpanded-ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraExpanded-Light.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraExpanded-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraExpanded-Medium.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraExpanded-SemiBold.ttf")
+		format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraExpanded-Bold.ttf")
+		format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraExpanded-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata ExtraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_ExtraExpanded-Black.ttf")
+		format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Ultra Expanded variants */
+@font-face {
+	font-family: "Inconsolata UltraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraExpanded-ExtraLight.ttf")
+		format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraExpanded-Light.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraExpanded-Regular.ttf")
+		format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraExpanded-Medium.ttf")
+		format("truetype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraExpanded-SemiBold.ttf")
+		format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraExpanded-Bold.ttf")
+		format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraExpanded-ExtraBold.ttf")
+		format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inconsolata UltraExpanded";
+	src: url("/fonts/Inconsolata/static/Inconsolata_UltraExpanded-Black.ttf")
+		format("truetype");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
